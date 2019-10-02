@@ -61,7 +61,6 @@ int btd(char* bin)
     return dec;
 }
 
-
 void enter_bin_array(char** array_bin, int n) 
 {
     printf("Enter binaries:\n");
@@ -72,7 +71,6 @@ void enter_bin_array(char** array_bin, int n)
     }
 }
 
-
 void print_bin_array(char** array_bin, int n) 
 {
     printf("Array of binaries:\n");
@@ -81,7 +79,6 @@ void print_bin_array(char** array_bin, int n)
         printf("%d: %s\n", i+1, array_bin[i]);
     }
 }
-
 
 void print_dec_array(char* array_dec, int n) 
 {
