@@ -93,8 +93,8 @@ int main() {
 	int connect = 1;
 	for (int i = 0; i < n; i++)
 		if (color[i] == 0) connect = 0;
-	if (connect == 1) printf("CONNECTIVE!\n");
-	else printf("NOT CONNECTIVE!\n");
+	if (connect == 1) printf("CONNECTED!\n");
+	else printf("NOT CONNECTED!\n");
 	//=========================================
 	//VISUAL
 	FILE* f = fopen("graph.txt", "w");
